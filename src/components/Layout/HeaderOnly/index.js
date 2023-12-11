@@ -3,11 +3,11 @@ import Header from "~/components/Layout/components/Header";
 import React from 'react';
 import PropTypes from 'prop-types';
 
-DefaultLayout.propTypes = {
+HeaderOnly.propTypes = {
     
 };
 
-function DefaultLayout({children}) {
+function HeaderOnly({children}) {
     return (
         <div>
             <Header />
@@ -16,4 +16,4 @@ function DefaultLayout({children}) {
     );
 }
 
-export default DefaultLayout;
+export default HeaderOnly;
